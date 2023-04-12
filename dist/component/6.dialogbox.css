@@ -1,0 +1,97 @@
+.box.dialog {
+    position: fixed;
+    top: 1em;
+    left: auto;
+    bottom: auto;
+    right: 1em;
+    max-width: 50%;
+    max-height: 50%;
+    min-width: 25%;
+    min-height: 25%;
+    padding: 1em;
+    background-color: var(--white);
+    box-shadow: 0.1em 0.1em 0.5em rgba(128, 128, 128, 1);
+    border-radius: 1em;
+    overflow: auto;
+}
+
+@media (max-width: 128px) {
+    .box.dialog {
+        max-width: 50%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 256px) {
+    .box.dialog {
+        max-width: 50%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 576px) {
+    .box.dialog {
+        max-width: 50%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .box.dialog {
+        max-width: 50%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .box.dialog {
+        max-width: 50%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box.dialog {
+        max-width: 25%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .box.dialog {
+        max-width: 25%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .box.dialog {
+        max-width: 25%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}
+
+@media (min-width: 1900px) {
+    .box.dialog {
+        max-width: 25%;
+        max-height: 50%;
+        min-width: 25%;
+        min-height: 25%;
+    }
+}

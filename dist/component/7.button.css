@@ -1,0 +1,35 @@
+/* ========== BUTTON ========== */
+
+.button {
+    outline: none;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    box-shadow: 0 0.15em 0.2em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-align: center;
+
+    color: rgba(102, 102, 102, 1);
+    border: 0.1em solid rgba(187, 187, 187, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.button:hover {
+    box-shadow: 0 0.2em 0.8em 0 rgba(0, 0, 0, 0.4);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.button:focus {
+    box-shadow: 0 0.2em 0.8em 0 rgba(0, 0, 0, 0.8);
+}
+
+.button.radius {
+    border-radius: 2em;
+}
+
+.button.full {
+    width: 100%;
+}
